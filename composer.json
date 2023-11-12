@@ -1,0 +1,20 @@
+{
+    "name": "roul/purl",
+    "description": "A Library Used to send HTTP Requests.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roul\\Purl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ro0ul",
+            "email": "saad.naami055@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
