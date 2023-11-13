@@ -8,7 +8,7 @@ A Http Client used to send requests
 ```php
   $client = new \Roul\Purl\Http\Client();
   $response = $client->request(
-    method: "GET",
+    method: "get",
     header: $headers,
     options: $options
   );
